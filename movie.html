@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">MovieFlix</a>
+            <button class="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="nav-links">
+                <a href="/">Ana Sayfa</a>
+                <a href="#">Filmler</a>
+                <a href="#">Diziler</a>
+                <a href="#">Yeni Çıkanlar</a>
+                <a href="#">Kategoriler</a>
+                <a href="#">Canlı TV & Shows</a>
+            </div>
+            <div class="nav-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"></path>
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1">
+                    </path>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <img src="https://www.indiewire.com/wp-content/uploads/2024/10/Squid-Game.jpg" alt="Squid Game"
+                    class="hero-bg">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h3>Dizi - 2 Sezon</h3>
+                        <h1>Squid Game</h1>
+                        <p>Gerilim - 2024</p>
+                        <p>Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf
+                            daveti kabul eder. İçeride onları cazip bir ödül ve ölüm riski beklemektedir.</p>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                                </svg>
+                                Şimdi İzle
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                </svg>
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d96bb958-4e6c-4ce0-9447-fbe226fbbecf/dfk63nj-143d8fbe-67f5-4517-a482-74165e75c3bc.jpg"
+                    alt="Wednesday" class="hero-bg">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h3>Dizi - 1 Sezon</h3>
+                        <h1>Wednesday</h1>
+                        <p>Fantastik, Komedi - 2022</p>
+                        <p>Zeki, alaycı ve "ölü içi soğuk" Wednesday Addams, Nevermore Akademisi'ndeki yeni yaşamında
+                            hem doğaüstü güçlerini kontrol etmeyi öğrenir hem de gizemli bir cinayeti çözmeye çalışır.
+                        </p>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                                </svg>
+                                Şimdi İzle
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                </svg>
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://i.pinimg.com/originals/3a/88/ca/3a88caaa98e3c58f6de70aff845872c9.jpg"
+                    alt="Stranger Things" class="hero-bg">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h3>Dizi - 4 Sezon</h3>
+                        <h1>Stranger Things</h1>
+                        <p>Bilim Kurgu, Korku - 2016</p>
+                        <p>1980'lerde Indiana'da bir çocuğun ortadan kaybolmasıyla başlayan olaylar, doğaüstü güçlere
+                            sahip gizemli bir kız, devlet deneyleri ve alternatif bir boyutun varlığını ortaya çıkarır.
+                        </p>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                                </svg>
+                                Şimdi İzle
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                                </svg>
+                                Detaylı Bilgi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="slider-controls">
+                <button class="prev-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+                <div class="slider-dots"></div>
+                <button class="next-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="filter-section">
+        <div class="filter-section-box" style="display: flex;">
+            <!--Categories-->
+            <div class="filter-chips" style="width: 100%;">
+                <button class="filter-chip active">Tümü</button>
+                <button class="filter-chip">Diziler</button>
+                <button class="filter-chip">Filmler</button>
+            </div>
+
+            <!--Search-->
+            <div class="filter-search" style="margin-top: 7px;">
+                <input type="text" class="search-input" placeholder="Film, veya dizi ara..."
+                    style="border-radius: inherit;">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+
+        <!--Filter Groups-->
+        <div class="filter-groups">
+            <!--Genres-->
+            <div class="filter-group">
+                <span class="filter-group-title">Tür</span>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="https://www.openenglish.com.tr/blog/wp-content/uploads/2023/02/ingilizce-gelistirmek-icin-izleyebilecegin-6-aksiyon-filmi.jpg"
+                            alt="Action">
+                        <div class="category-overlay">Aksiyon</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://imgix.ranker.com/list_img_v2/13954/353954/original/353954-u3?auto=format&q=50&fit=crop&fm=pjpg&dpr=2&crop=faces&h=185.86387434554973&w=355"
+                            alt="Drama">
+                        <div class="category-overlay">Drama</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://denemenlazim.net/wp-content/uploads/2020/04/komedi_filmleri-the_mask.jpg"
+                            alt="Comedy">
+                        <div class="category-overlay">Komedi</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/108055/mutlaka-izlemeniz-gereken-uykularinizi-kaciracak-15-korku-filmi-1616929046.jpg"
+                            alt="Horror">
+                        <div class="category-overlay">Korku</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://cdn.listelist.com/wp-content/uploads/2017/06/matrix-600x338.jpg" alt="Sci-Fi">
+                        <div class="category-overlay">Bilim Kurgu</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/90786/netflix-belgesel-izle-youtube-1587720190.jpg"
+                            alt="Documentary">
+                        <div class="category-overlay">Belgesel</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Year -->
+            <div class="filter-group">
+                <span class="filter-group-title">Yıl</span>
+                <div class="filter-options">
+                    <button class="filter-option active">2024</button>
+                    <button class="filter-option">2023</button>
+                    <button class="filter-option">2022</button>
+                    <button class="filter-option">2021</button>
+                    <button class="filter-option">2020</button>
+                    <button class="filter-option">2019</button>
+                    <button class="filter-option">2018</button>
+                    <button class="filter-option">2017</button>
+                    <button class="filter-option">2016</button>
+                    <button class="filter-option">2015</button>
+                    <button class="filter-option">2014</button>
+                    <button class="filter-option">2013</button>
+                    <button class="filter-option">2012</button>
+                    <button class="filter-option">2011</button>
+                    <button class="filter-option">2010</button>
+                    <button class="filter-option">2009</button>
+                    <button class="filter-option">Trend</button>
+                    <button class="filter-option">Yabancı</button>
+                    <button class="filter-option">Yerli</button>
+                    <button class="filter-option">IMDB Puanı</button>
+                </div>
+
+                <span class="filter-group-title">Film/Dizi Tarzı</span>
+                <div class="filter-options">
+                    <button class="filter-option active">Türkçe Dublaj</button>
+                    <button class="filter-option">Türkçe Altyazı</button>
+                    <button class="filter-option">Yerli Film/Dizi</button>
+                </div>
+            </div>
+
+            <!-- Rating-->
+            <div class="filter-group">
+                <span class="filter-group-title">Puan</span>
+                <div class="filter-options">
+                    <button class="filter-option active">9+</button>
+                    <button class="filter-option">8+</button>
+                    <button class="filter-option">7+</button>
+                    <button class="filter-option">6+</button>
+                    <button class="filter-option">5+</button>
+                    <button class="filter-option">4+</button>
+                    <button class="filter-option">3+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movies Section -->
+    <section class="movies-section">
+        <div class="section-header">
+            <h2>Popüler Filmler</h2>
+            <a href="#" class="btn btn-url">Tümünü Gör</a>
+        </div>
+        <div class="filter-chips">
+            <button class="filter-chip active">Tümü</button>
+            <button class="filter-chip">Yeni Çıkanlar</button>
+            <button class="filter-chip">Yakında</button>
+        </div>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <img src="https://static.hitek.fr/img/actualite/2015/06/fb_9389e514fca06a37ba2cba3493be1fbc-large.jpeg"
+                    alt="Movie 1">
+                <div class="movie-info">
+                    <h3>Başlangıç</h3>
+                    <div class="movie-meta">
+                        <span>2010</span>
+                        <span>8.8 ★</span>
+                        <span>Bilim Kurgu</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://media.altyazi.net/wp-content/uploads/2022/03/the-batman-5.jpeg" alt="Movie 2">
+                <div class="movie-info">
+                    <h3>Kara Şövalye</h3>
+                    <div class="movie-meta">
+                        <span>2008</span>
+                        <span>9.0 ★</span>
+                        <span>Aksiyon</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://www.bestepebloggers.com/wp-content/uploads/2024/10/interstellar.jpeg" alt="Movie 3">
+                <div class="movie-info">
+                    <h3>Yıldızlararası</h3>
+                    <div class="movie-meta">
+                        <span>2014</span>
+                        <span>8.6 ★</span>
+                        <span>Bilim Kurgu</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://www.kriptoteknikhaber.com/wp-content/uploads/2021/11/Pulp-Fiction.jpg" alt="Movie 4">
+                <div class="movie-info">
+                    <h3>Ucuz Roman</h3>
+                    <div class="movie-meta">
+                        <span>1994</span>
+                        <span>8.9 ★</span>
+                        <span>Suç</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/original/w7QYxniLjhclOV49dbwlpzCUGcQ.jpg" alt="Movie 4">
+                <div class="movie-info">
+                    <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                    <div class="movie-meta">
+                        <span>2003</span>
+                        <span>9 ★</span>
+                        <span>Fantastik/Macera</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/original/vW4l8AyqgTTBfSpTnUZZgYTm5lE.jpg" alt="Movie 4">
+                <div class="movie-info">
+                    <h3>Karayip Korsanları: Siyah İnci'nin Laneti</h3>
+                    <div class="movie-meta">
+                        <span>2003</span>
+                        <span>9.6 ★</span>
+                        <span>Macera/Aksiyon</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TV series Section -->
+    <section class="movies-section">
+        <div class="section-header">
+            <h2>Popüler Diziler</h2>
+            <a href="#" class="btn btn-url">Tümünü Gör</a>
+        </div>
+        <div class="filter-chips">
+            <button class="filter-chip active">Tümü</button>
+            <button class="filter-chip">Yeni Çıkanlar</button>
+            <button class="filter-chip">Yakında</button>
+        </div>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <img src="https://cdn.kinocheck.com/i/p2cztn7o8c.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3>Squid Game</h3>
+                    <div class="movie-meta">
+                        <span>2021</span>
+                        <span>2 Sezon</span>
+                        <span>8 ★</span>
+                        <span>Gerilim</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.justwatch.com/poster/307075311/s332/sezon-2" alt="Movie 2">
+                <div class="movie-info">
+                    <h3>The Witcher</h3>
+                    <div class="movie-meta">
+                        <span>2019</span>
+                        <span>3 Sezon</span>
+                        <span>8.3 ★</span>
+                        <span>Dram</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.justwatch.com/poster/308604792/s332/sezon-1" alt="Movie 2">
+                <div class="movie-info">
+                    <h3>Prens</h3>
+                    <div class="movie-meta">
+                        <span>2023</span>
+                        <span>2 Sezon</span>
+                        <span>8.3 ★</span>
+                        <span>Komedi</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/breaking_bad_4.png"
+                    alt="Movie 2">
+                <div class="movie-info">
+                    <h3>Breaking Bad</h3>
+                    <div class="movie-meta">
+                        <span>2008</span>
+                        <span>5 Sezon</span>
+                        <span>9,2 ★</span>
+                        <span>Dram</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/original/f67LHfAABmKz88mQJsyAzD522DZ.jpg" alt="Movie 2">
+                <div class="movie-info">
+                    <h3>Chernobyl</h3>
+                    <div class="movie-meta">
+                        <span>2019</span>
+                        <span>1 Sezon(mini dizi)</span>
+                        <span>9 ★</span>
+                        <span>Dram</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.pinimg.com/originals/1e/e9/1d/1ee91d593b1d7ccb17726699db43859f.jpg" alt="Movie 2">
+                <div class="movie-info">
+                    <h3>Avrupa Yakası</h3>
+                    <div class="movie-meta">
+                        <span>2004</span>
+                        <span>6 Sezon</span>
+                        <span>8.6 ★</span>
+                        <span>Durum komedisi</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">İzle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Temalar -->
+    <section class="movies-section">
+        <div class="section-header">
+            <h2>Temalar</h2>
+            <a href="#" class="btn btn-url">Tümünü Gör</a>
+        </div>
+        <div class="categories-grid">
+            <div class="category-card">
+                <img src="https://www.openenglish.com.tr/blog/wp-content/uploads/2023/02/ingilizce-gelistirmek-icin-izleyebilecegin-6-aksiyon-filmi.jpg"
+                    alt="Action">
+                <div class="category-overlay">Aksiyon Macera</div>
+            </div>
+            <div class="category-card">
+                <img src="https://imgix.ranker.com/list_img_v2/13954/353954/original/353954-u3?auto=format&q=50&fit=crop&fm=pjpg&dpr=2&crop=faces&h=185.86387434554973&w=355"
+                    alt="Drama">
+                <div class="category-overlay">Dram</div>
+            </div>
+            <div class="category-card">
+                <img src="https://denemenlazim.net/wp-content/uploads/2020/04/komedi_filmleri-the_mask.jpg"
+                    alt="Comedy">
+                <div class="category-overlay">Romantik</div>
+            </div>
+            <div class="category-card">
+                <img src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/108055/mutlaka-izlemeniz-gereken-uykularinizi-kaciracak-15-korku-filmi-1616929046.jpg"
+                    alt="Horror">
+                <div class="category-overlay">Aile</div>
+            </div>
+            <div class="category-card">
+                <img src="https://cdn.listelist.com/wp-content/uploads/2017/06/matrix-600x338.jpg" alt="Sci-Fi">
+                <div class="category-overlay">Kültür Sanat</div>
+            </div>
+            <div class="category-card">
+                <img src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/90786/netflix-belgesel-izle-youtube-1587720190.jpg"
+                    alt="Documentary">
+                <div class="category-overlay">Belgesel</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live TV Shows -->
+    <section class="live-tv">
+        <div class="section-header">
+            <h2>Canlı TV & Shows</h2>
+            <a href="#" class="btn btn-url">Program Akışı</a>
+        </div>
+        <div class="filter-chips">
+            <button class="filter-chip active">Tümü</button>
+            <button class="filter-chip">TV8 Canlı Yayın</button>
+            <button class="filter-chip">Star TV Canlı Yyın</button>
+        </div>
+        <div class="live-grid">
+            <div class="live-card">
+                <div class="live-thumbnail">
+                    <img src="https://i.turkiyegazetesi.com.tr/images/24-12/16/survivor-2025-yarismacilari-belli-oldu-2025-survivor-ne-zaman-baslayacak-17343369598543.jpg"
+                        alt="Live Show 1">
+                    <span class="live-badge">CANLI</span>
+                </div>
+                <div class="live-info">
+                    <h3>Survivor Türkiye</h3>
+                    <div class="live-meta">
+                        <span>Yarışma Programı</span>
+                        <span>2005</span>
+                        <span>12 sezon</span>
+                        <span>20:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="live-card">
+                <div class="live-thumbnail">
+                    <img src="https://im.haberturk.com/2023/01/11/3555192_54bfe54f81cebd65f86b7558b88e5e92_640x640.jpg"
+                        alt="Live Show 2">
+                    <span class="live-badge">CANLI</span>
+                </div>
+                <div class="live-info">
+                    <h3>MasterChef Türkiye</h3>
+                    <div class="live-meta">
+                        <span>Yarışma Programı</span>
+                        <span>2018</span>
+                        <span>7 sezon</span>
+                        <span>20:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="live-card">
+                <div class="live-thumbnail">
+                    <img src="https://iasbh.tmgrup.com.tr/8a7b8e/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2025/01/11/o-ses-turkiye-2025-jurileri-ve-baslangic-tarihio-ses-turkiye-ne-zaman-baslayacak-juri-uyeleri-kimdir-1736621849598.jpeg&mw=600"
+                        alt="Live Show 3">
+                    <span class="live-badge">CANLI</span>
+                </div>
+                <div class="live-info">
+                    <h3>O Ses Türkiye</h3>
+                    <div class="live-meta">
+                        <span>Şarkı Yarışma Programı</span>
+                        <span>2011</span>
+                        <span>11 sezon</span>
+                        <span>20:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>MovieFlix</h4>
+                <p class="footer-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam velit
+                    similique assumenda eius
+                    quaerat iste repudiandae exercitationem culpa obcaecati veritatis!</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Yardım</h4>
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Filmler</a></li>
+                    <li><a href="#">Diziler</a></li>
+                    <li><a href="#">Yeni Çıkanlar</a></li>
+                    <li><a href="#">Kategoriler</a></li>
+                    <li><a href="#">Canlı TV & Shows</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Yasal</h4>
+                <ul>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#">Hesap</a></li>
+                    <li><a href="#">Destek Merkezi</a></li>
+                    <li><a href="#">Gizlilik Politikası</a></li>
+                    <li><a href="#">Kullanım Şartları</a></li>
+                    <li><a href="#">KVKK</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <script src="/public/js/mobile-menu.js"></script>
+    <script src="/public/js/slider.js"></script>
+    <script src="/public/js/top-button.js"></script>
+</body>
+
+</html>
